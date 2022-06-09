@@ -1,0 +1,28 @@
+// Projeto vetor de leds
+// Programador: Carlos da Costa
+// 09/06/22
+
+#include <Servo.h> //Biblioteca do motor servo
+ 
+Servo servo; //Objeto servo motor
+ 
+const int pinoPOT = A0; //Pino analógico do potenciômetro
+const int pinoServo = 3; //Pino digital do motor servo 
+ 
+int leituraAnalog; //Variável que armazena valor da porta analógica         
+  
+void setup(){
+  servo.attach(pinoServo); //Servo motor associado ao pino digital
+ 
+  pinMode(pinoPOT, INPUT); //Define porta como entrada 
+} 
+void loop(){ 
+  leituraAnalog = analogRead(pinoPOT); //Lê o valor da porta analógica
+   
+  leituraAnalog = map(leituraAnalog, 0, 1023, 0, 180); //Função "map": 
+  //Faz a "transição" entre os valores analógicos(0 a 1023) 
+  //e o movimentos do moto servo em graus(0 a 180)  
+  
+  servo.write(leituraAnalog); //Aplica o valor ao motor servo
+  delay(1); //Intervalo
+}
