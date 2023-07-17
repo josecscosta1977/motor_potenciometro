@@ -6,9 +6,9 @@ Arduino é uma plataforma de prototipação eletrônica (para testes e projetos 
 
 ## Instalação no sistema operacional Windows.
 
-Download: https://www.arduino.cc/en/software
-Instalação: https://docs.arduino.cc/software/ide-v1/tutorials/Windows
-Documentação: https://www.arduino.cc/reference/en/
+* Download: https://www.arduino.cc/en/software
+* Instalação: https://docs.arduino.cc/software/ide-v1/tutorials/Windows
+* Documentação: https://www.arduino.cc/reference/en/
 
 Após o download da IDE Arduino, instale-o e conecte a placa Arduino ao usb do computador. Configure a placa (ferramentas/placas) e a porta (ferramentas/porta serial) que será usada.
 
