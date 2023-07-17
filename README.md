@@ -14,6 +14,12 @@ Após o download da IDE Arduino, instale-o e conecte a placa Arduino ao usb do c
 
 ## Materiais utilizados.
 
+* Placa Arduino Uno
+* Cado de força
+* Protoboard
+* Potenciômetro
+* Servo-motor
+
 
 
 
